@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+.container{
+  padding: 15px;
+  max-width: fit-content;
+  margin:30px auto;
+}
+.btn{
+  border: none;
+  background-color: blue;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.addTask{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addTask form{
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.addTask form label{
+  font-size: 22px;
+
+}
+.addTask form input{
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.addTask form button{
+  border: none;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: rgb(127, 110, 223);
+  font-weight: 600;
+  margin-top: 20px;
+}
+.addTask form .close-btn{
+  margin-left: auto;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(219, 213, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tableHead{
+  margin-top: 50px;
+  border:1px solid #c4c1c1;
+  box-shadow: 5px 5px 10px #c4c1c1;
+}
+.tableHead table thead tr th,.tableHead table tbody tr td{
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  
+}
+.tableHead table thead tr{
+  background-color: blanchedalmond;
+}
+.tableHead table tbody tr td{
+  border-bottom: 1px solid #837e7e;
+}
+.btn-edit,.btn-delete{
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-edit{
+  background-color: aquamarine;
+}
+.btn-delete{
+  background-color: red;
+}
